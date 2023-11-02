@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+
+<% if(locals.blog) { %> 
+    <p><%= blog %></p>
+<% } else { %>
+    <p>Blog empty</p>
+<% } %>
+
+<ul>
+    <li>
+        <a href="/superlinear">Superlinear-returns</a>
+    </li>
+ </ul>
+
+
+<%- include('partials/footer.ejs') %>

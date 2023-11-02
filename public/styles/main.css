@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: bisque;
+}
+
+.anchor-tags{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
